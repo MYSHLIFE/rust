@@ -8,7 +8,8 @@
 // option. This file may not be copied, modified, or distributed
 // except according to those terms.
 
-extern crate extra;
+// ignore-fast doesn't like extern crate
+
 extern crate libc;
 
 mod mlibc {
